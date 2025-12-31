@@ -105,7 +105,7 @@ const getServer = async () => {
                             zodType = z.boolean();
                             break;
                         case 'integer':
-                            zodType = z.bigint();
+                            zodType = z.int32();
                             break;
                         case 'array':
                             zodType = z.array(z.any());
