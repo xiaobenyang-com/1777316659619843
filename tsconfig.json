@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "target": "es2022",
+    "module": "nodenext",
+    "declaration": true,
+    "sourceMap": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false
+  },
+  "include": ["src/**/*.ts"], // 编译 src 目录下所有 .ts 文件
+  "exclude": ["src/test/**/*"] // 排除测试目录
+}
